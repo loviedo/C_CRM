@@ -1,6 +1,6 @@
 var config = {
     database: {
-        host:      'localhost', // database host
+        host:      '216.70.112.44', // database host
         user:       'root', //username del pass
         password: 'Super123', //pass
         port:       3306, // default MySQL port
@@ -8,7 +8,7 @@ var config = {
     },
     server: {
         host: '127.0.0.1',
-        port: '4000'
+        port: '7000'
     }
 }
  

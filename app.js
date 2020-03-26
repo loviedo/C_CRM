@@ -118,6 +118,6 @@ app.get('/signup', users);//pagina de alta usuario
 //hacemos que la carpeta public sea accesible
 app.use("/public", express.static(path.join(__dirname, 'public')));
  
-app.listen(4000, function(){
-    console.log('Server iniciado en el puerto 4000: http://127.0.0.1:4000')
+app.listen(7000, function(){
+    console.log('Server iniciado en el puerto 7000: http://127.0.0.1:7000')
 })
